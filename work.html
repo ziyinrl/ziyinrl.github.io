@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  
+
+  <!--This commented out code below is for using the bootstrap CSS via a link -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- This code below is for linking Bootstrap via a local file!-->
+  <!--<link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap.min.css">-->
+
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+
+  .jumbotron {
+
+    background-image: url("splash-art.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: white;
+  }
+
+  .responsive {
+    max-width: 100%;
+    height: auto;
+  }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>Leonardo</h1>
+  <p>D A  V I N C I</p> 
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Nav</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="work.html">Work</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="statement.html">Statement</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-12">
+      <h2>Mona Lisa</h2>
+      <h5>Oil on poplar panel, c. 1503–1506, perhaps continuing until c. 1517</h5>
+      <!--<div class="fakeimg">Fake Image</div>-->
+      <img src="lisa.jpg" class="responsive">
+      
+      <p>77 cm × 53 cm (30 in × 21 in)</p>
+      <p>The Mona Lisa is a half-length portrait painting by me. It is considered an archetypal masterpiece of the Italian Renaissance, and has been described as "the best known, the most visited, the most written about, the most sung about, the most parodied work of art in the world". The painting's novel qualities include the subject's expression, which is frequently described as enigmatic, the monumentality of the composition, the subtle modelling of forms, and the atmospheric illusionism.</p>
+      <br>
+      <h2>The Last Supper</h2>
+      <h5>Fresco on Plaster, 1490s</h5>
+      <!--<div class="fakeimg">Fake Image</div>-->
+      <img src="supper.jpg" class="responsive">
+      <p>700 cm (280 in) × 880 cm (350 in)<p>
+      <p>The Last Supper is a late 15th-century mural painting by Italian artist Leonardo da Vinci housed by the refectory of the Convent of Santa Maria delle Grazie in Milan, Italy. It is one of the Western world's most recognizable paintings.</p>
+       <br>
+      <h2>Madonna of the Carnation</h2>
+      <h5>  Oil on panel, 1478–1480</h5>
+      <!--<div class="fakeimg">Fake Image</div>-->
+      <img src="madonna.jpg" class="responsive">
+      <p>62 cm × 47.5 cm (24 in × 18.7 in)<p>
+      <p>The Madonna of the Carnation, also known as the Madonna with Vase, Madonna with Child or Virgin with Flower, is a Renaissance oil painting by Leonardo da Vinci created around 1478–1480. It is permanently displayed at the Alte Pinakothek gallery in Munich, Germany. </p>
+
+      <p>The central and centered motif is the young Virgin Mary seated with Baby Jesus on her lap.[b] Depicted in sumptuous clothes and jewellery, with her left hand Mary holds a carnation (red, suggesting blood and the Passion). The faces are put into light while all other objects are darker, e.g. the flower is covered by a shadow. The child is looking up and the mother looking down, with no eye contact. The setting of the portrait is a room with two windows on each side of the figures.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>Stannard &copy; Sept 2020</p>
+</div>
+
+</body>
+</html>
