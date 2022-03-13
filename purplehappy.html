@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>purple happy self portrait</title>
+</head>
+
+<style>
+h1{
+color: rgb(238, 206, 166);
+font-family: courier;
+font-size: 400%;
+}
+
+p
+{
+color: rgb(238, 206, 166);
+font-family: courier;
+font-size: 200%;
+}
+
+</style>
+
+<body style="background-color:rgb(43, 37, 24);">
+
+<center>
+
+<h1>
+
+PURPLE HAPPY self-portrait
+
+</h1>
+
+<iframe src="ph/index.html" height="600" width="600" title="purplehappy"></iframe>
+
+</center>
+
+<p>
+var y = 600;<br>
+var speed = 3;<br><br>
+
+function setup() {<br>
+  createCanvas(600, 600);<br>
+  angleMode(DEGREES);<br>
+}<br><br>
+
+function draw() {<br><br><br>
+  
+background(228, 155, 155); //backround<br><br>
+
+
+   
+fill(230, 207, 232);<br>
+noStroke();<br><br>
+ 
+push();<br>
+translate(74, y);<br>
+rotate(30);<br>
+ellipse(0, 0, 50, 80);<br>
+pop(); <br><br>
+
+push();<br>
+translate(42, y);<br>
+rotate(310);<br>
+ellipse(0, 0, 50, 80);<br>
+pop(); //big heart 1<br><br>
+
+
+push();<br>
+translate(564, y);<br>
+rotate(30);<br>
+ellipse(0, 0, 57, 96);<br>
+pop(); <br><br>
+
+push();<br>
+translate(532, y);<br>
+rotate(310);<br>
+ellipse(0, 0, 70, 95);<br>
+pop(); //big heart 2<br><br>
+
+
+if (y <= 0) {<br>
+    speed = - 3;<br>
+}<br><br>
+
+if (y == height) {<br>
+    speed = 3;<br>
+}<br><br>
+
+ y = y - speed;<br><br>
+
+
+noStroke();<br>
+fill(43, 38, 27);<br><br>
+
+push();<br>
+translate(190, 170);<br>
+rotate(38);<br>
+ellipse(0, 0, 110, 290);<br>
+pop(); //hair5<br><br>
+
+push();<br>
+translate(150, 270);<br>
+ellipse(0, 0, 140, 190);<br>
+pop(); //hair6<br><br>
+
+
+noStroke();<br>
+fill(236, 200, 178);<br>
+rect(240, 400, 160, 200); //neck<br><br>
+
+
+noStroke();<br>
+fill(104, 74, 130);<br><br>
+
+push();<br>
+translate(230, 490);<br>
+rotate(320);<br>
+ellipse(0, 0, 70, 100);<br>
+pop(); //cloth1<br><br>
+
+push();<br>
+translate(263, 487);<br>
+ellipse(0, 0, 60, 100);<br>
+pop(); //cloth2<br><br>
+
+push();<br>
+translate(310, 488);<br>
+rotate(10);<br>
+ellipse(0, 0, 50, 100);<br>
+pop(); //cloth3<br><br>
+
+push();<br>
+translate(360, 488);<br>
+rotate(10);<br>
+ellipse(0, 0, 57, 100);<br>
+pop(); //cloth4<br><br>
+
+push();<br>
+translate(400, 488);<br>
+rotate(31);<br>
+ellipse(0, 0, 57, 100);<br>
+pop(); //cloth5<br><br>
+
+
+push();<br>
+noStroke();<br>
+fill(186, 158, 167);<br>
+ellipse(300, 610, 350, 290);<br>
+pop(); //cloth6<br><br>
+
+
+fill(43, 38, 27);<br>
+ellipse(110, 390, 70, 80); <br>
+ellipse(140, 390, 70, 80); //left plaits<br><br>
+
+
+noStroke();<br>
+fill(240, 231, 212);<br>
+ellipse(170, 315, 80, 180);<br>
+fill(218, 193, 140);<br>
+ellipse(173, 310, 40, 100); <br>
+fill(240, 231, 212); //headphone on the left<br><br>
+
+
+noStroke();<br>
+fill(236, 200, 178);<br>
+ellipse(330, 270, 300, 340);<br>
+ellipse(290, 330, 300, 195); //face<br><br>
+
+
+noStroke();<br>
+fill(218, 185, 205);<br><br>
+
+push();<br>
+translate(180, 343);<br>
+rotate(34);<br>
+ellipse(0, 0, 15, 25);<br>
+pop(); //check color1<br><br>
+
+push();<br>
+translate(205, 343);<br>
+rotate(34);<br>
+ellipse(0, 0, 15, 25);<br>
+pop(); //check color2<br><br>
+
+push();<br>
+translate(230, 343);<br>
+rotate(34);<br>
+ellipse(0, 0, 15, 25);<br>
+pop(); //check color3<br><br>
+
+push();<br>
+translate(340, 343);<br>
+rotate(34);<br>
+ellipse(0, 0, 15, 25);<br>
+pop(); //check color4<br><br>
+
+push();<br>
+translate(365, 343);<br>
+rotate(34);<br>
+ellipse(0, 0, 15, 25);<br>
+pop(); //check color5<br><br>
+
+push();<br>
+translate(390, 343);<br>
+rotate(34);<br>
+ellipse(0, 0, 15, 25);<br>
+pop(); //check color6<br><br>
+
+
+fill(238, 187, 155); <br>
+triangle(289, 300, 273, 320, 289, 332); //nose<br><br>
+
+
+noStroke();<br>
+fill(43, 38, 27);<br>
+ellipse(500, 285, 100, 170); //hair9<br><br>
+
+
+ellipse(510, 390, 70, 80); <br>
+ellipse(480, 390, 70, 80); <br><br>
+
+push();<br>
+translate(490, 480);<br>
+rotate(31);<br>
+ellipse(0, 0, 90, 130);<br>
+pop(); <br><br>
+
+push();<br>
+translate(470, 470);<br>
+rotate(60);<br>
+ellipse(0, 0, 80, 130);<br>
+pop();<br><br>
+
+push();<br>
+translate(380, 510);<br>
+rotate(60);<br>
+ellipse(0, 0, 90, 130);<br>
+pop();<br><br>
+
+push();<br>
+translate(400, 530);<br>
+rotate(90);<br>
+ellipse(0, 0, 90, 130);<br>
+pop(); <br><br>
+
+push();<br>
+translate(320, 520);<br>
+rotate(90);<br>
+ellipse(0, 0, 85, 100);<br>
+pop();<br><br>
+
+ellipse(265, 525, 90, 70)<br><br>;
+
+push();<br>
+translate(200, 500);<br>
+rotate(300);<br>
+ellipse(0, 0, 35, 100);<br>
+pop();<br><br>
+
+push();<br>
+translate(200, 520);<br>
+rotate(270);<br>
+ellipse(0, 0, 35, 100);<br>
+pop();<br><br>
+
+push();<br>
+translate(200, 540);<br>
+rotate(230);<br>
+ellipse(0, 0, 35, 100);<br>
+pop(); //right plaits<br><br>
+
+push();<br>
+translate(89, 475);<br>
+rotate(31);<br>
+ellipse(0, 0, 90, 130);<br>
+pop(); <br><br>
+
+push();<br>
+translate(50, 460);<br>
+rotate(60);<br>
+ellipse(0, 0, 80, 123);<br>
+pop(); <br><br>
+
+ellipse(0, 500, 20, 20);<br><br>
+
+push();<br>
+translate(10, 530);<br>
+ellipse(0, 0, 100, 60);<br>
+pop(); //left plaits<br><br>
+
+
+push();<br>
+translate(485, 250);<br>
+rotate(340);<br>
+ellipse(0, 0, 120, 218);<br>
+pop(); //hair8<br><br>
+
+push();<br>
+translate(400, 145);<br>
+rotate(305);<br>
+ellipse(0, 0, 120, 290);<br>
+pop(); //hair7<br><br>
+
+push();<br>
+translate(390, 150);<br>
+rotate(310);<br>
+ellipse(0, 0, 110, 270);<br>
+pop(); //hair1<br><br>
+
+push();<br>
+translate(220, 145);<br>
+rotate(30);<br>
+ellipse(0, 0, 90, 210);<br>
+pop(); //hair2<br><br>
+
+push();<br>
+translate(280, 125);<br>
+rotate(5);<br>
+ellipse(0, 0, 15, 60);<br>
+pop(); //hair10<br><br>
+
+push();<br>
+translate(290, 125);<br>
+rotate(165);<br>
+ellipse(0, 0, 18, 69);<br>
+pop(); //hair11<br><br>
+
+push();<br>
+translate(300, 69);<br>
+ellipse(0, 0, 120, 50);<br>
+pop(); //haiir3<br><br>
+
+push();<br>
+translate(215, 160);<br>
+rotate(316);<br>
+ellipse(0, 0, 152, 52);<br>
+pop(); //haiir4<br><br>
+
+
+noStroke();<br>
+fill(240, 231, 212);<br>
+ellipse(480, 305, 80, 180);<br>
+fill(218, 193, 140);<br>
+ellipse(482, 305, 50, 100); <br>
+fill(240, 231, 212); <br>
+ellipse(484, 313, 25, 25); //headphone on the right<br><br>
+
+
+noFill();<br>
+stroke(60, 53, 39);<br>
+strokeWeight(6);<br>
+arc(235, 265, 57, 66, 205, 335, OPEN);<br>
+arc(380, 265, 57, 66, 205, 335, OPEN);<br>
+ //eyelash<br><br>
+
+fill(60, 53, 39);<br>
+noStroke();<br>
+ellipse(238, 268, 50, 70); //left eye<br>
+ellipse(384, 268, 50, 70); //right eye<br>
+
+fill(230, 207, 232);<br>
+noStroke();<br>
+push();<br>
+translate(243, 280);<br>
+rotate(30);<br>
+ellipse(0, 0, 18, 29);<br>
+pop(); <br><br>
+
+push();<br>
+translate(232, 281);<br>
+rotate(310);<br>
+ellipse(0, 0, 18, 29);<br>
+pop(); //left heart<br><br>
+
+push();<br>
+translate(390, 280);<br>
+rotate(30);<br>
+ellipse(0, 0, 18, 29);<br>
+pop(); <br><br>
+
+push();<br>
+translate(379, 281);<br>
+rotate(310);<br>
+ellipse(0, 0, 18, 29);<br>
+pop(); //right heart<br><br>
+
+ellipse(231, 248, 10, 10);<br>
+ellipse(225, 258, 7, 7);<br>
+ellipse(250, 290, 7, 7); //left eye<br><br>
+
+ellipse(378, 248, 10, 10);<br>
+ellipse(372, 258, 7, 7); <br>
+ellipse(398, 290, 7, 7); //right eye<br>
+//eye<br><br>
+
+
+fill(230, 169, 159);<br>
+noStroke();<br>
+arc(290, 367, 35, 60, 0, 180, OPEN); //mouth<br><br>
+
+
+stroke(240, 231, 212);<br>
+strokeWeight(20);<br>
+noFill();<br>
+arc(319, 219, 320, 250, 170, 360, open); //headphone connection<br><br><br>
+
+
+
+}
+
+
+
+</p>
+
+</body>
+</html>
