@@ -1,0 +1,44 @@
+{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Lucida Console, Courier New, monospace;
+}
+
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:rgb(235,219,254) ;
+  overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  color: white;
+  padding: 30px;
+  text-decoration: none;
+  display: block;
+  font-size: 50px;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color:rgb(246, 233, 192);
+  color: white;
+}
+
+/* Style the content */
+.content {
+  
+  margin-left: 200px;
+  padding-left: 50px;
+}
+
